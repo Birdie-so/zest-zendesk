@@ -1,36 +1,35 @@
 {
-  "name": "Screen Recording by Birdie",
-  "author": {
-    "name": "Birdie Team",
-    "email": "support@birdie.so",
-    "url": "https://www.birdie.so"
-  },
-  "version": "1.0.9",
-  "frameworkVersion": "2.0",
-  "defaultLocale": "en",
-  "private": false,
-  "singleInstall": true,
-  "location": {
-    "support": {
-      "ticket_sidebar": {
-        "signed": false,
-        "url": "https://app.birdie.so/zendeskapp/support/ticket_sidebar",
-        "size": {
-          "height": "300px"
-        }
-      },
-      "ticket_editor": {
-        "url": "https://app.birdie.so/zendeskapp/support/ticket_editor",
-        "size": {
-          "height": "285px",
-          "width": "370px"
-        }
-      }
+    "name": "Screen Recording by Birdie",
+    "author": {
+        "name": "Birdie Team",
+        "email": "support@birdie.so",
+        "url": "https://www.birdie.so"
     },
-    "chat": {
-      "chat_sidebar": {
-        "url": "https://app.birdie.so/zendeskapp/support/chat_sidebar"
-      }
+    "version": "1.2.0",
+    "frameworkVersion": "2.0",
+    "defaultLocale": "en",
+    "private": false,
+    "singleInstall": true,
+    "location": {
+        "support": {
+            "ticket_sidebar": {
+                "url": "https://app.birdie.so/zendeskapp/support/ticket_sidebar",
+                "size": {
+                    "height": "150px"
+                }
+            },
+            "ticket_editor": {
+                "url": "https://app.birdie.so/zendeskapp/support/ticket_editor",
+                "size": {
+                    "height": "285px",
+                    "width": "370px"
+                }
+            }
+        },
+        "chat": {
+            "chat_sidebar": {
+                "url": "https://app.birdie.so/zendeskapp/support/chat_sidebar"
+            }
+        }
     }
-  }
 }
